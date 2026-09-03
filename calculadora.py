@@ -10,7 +10,13 @@ def restar(a, b):
 def multiplicar(a, b):
     return a * b
 
+# ============================================
+# CALCULADORA - Funciones adicionales
+# Agreguen estas funciones a su calculadora.py,
+# una por una, con su propio commit para cada una
+# ============================================
+
 def dividir(a, b):
     if b == 0:
-        raise ValueError("No se puede dividir entre cero.")
+        return "Error: no se puede dividir entre cero"
     return a / b
