@@ -1,3 +1,4 @@
+#Funciones de una calculadora simple--Utilizando Git Avanzado
 # Calculadora
 
 def sumar(a, b):
@@ -8,7 +9,7 @@ def restar(a, b):
 
 def multiplicar(a, b):
     return a * b
-    
+
 def dividir(a, b):
     if b == 0:
         return "Error: No se puede dividir entre cero."
